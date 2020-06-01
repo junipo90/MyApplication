@@ -1,0 +1,51 @@
+
+Network
+-> 통신
+
+Database ----- Server ----- Clint(app, web, ...)
+
+Local Database 의 한계
+- 동기화가 어렵다  (여러 기기 간에)
+- 상호작용이 불가능하다 (서버에 올라가 있는 데이터)
+
+서버와 통신하는 방법
+- 해당 url 로 요청한다
+- 인증번호를 보낸다
+- JSON 형식을 사용해서 data 를 보낸다
+    - JavaScript Object Notation -> JavaScript 에서 객체를 만들 때 사용하는 표현식
+
+JSON 형식
+- [] -> List
+- {} -> 객체
+
+JSON Response
+[
+    {
+        "id": 1,
+        "name": "lee",
+        "age": 31,
+    },
+    {
+        "id": 1,
+        "name": "lee",
+        "age": 31,
+    }
+]
+
+JSON Parsing
+-> JSON 을 코틀린 or JAVA 가 이해 할 수 있게 변형하는 과정
+-> Serializable (직렬화)
+
+Request Type                Status Code
+- GET    -> 정보 요청          -> 200 OK
+- POST   -> 정보 추가 요청      -> 201 Created
+- DELETE -> 정보 삭제 요청
+- PUT    -> 정보 수정 요청
+
+Status Code
+- 200 번대 -> 처리가 잘 된것
+- 400 번대 -> 에러 응답
+
+Library
+- volley
+- retrofit

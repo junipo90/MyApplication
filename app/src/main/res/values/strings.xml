@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="temp_string">안녕하세요 임시 문장입니다</string>
+</resources>

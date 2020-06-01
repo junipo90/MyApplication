@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:background="#2B2B2B">
+
+        <ImageView android:layout_width="50dp"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/youtube"
+                   android:padding="10dp"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center|left"
+                  android:text="zgujungbuck tube"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:background="#5C5C5C"
+                android:fillViewport="true">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="10dp">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="250dp"
+                           android:src="@drawable/dog"
+                           android:scaleType="centerCrop"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:text="10:11"
+                          android:textColor="#ffffff"
+                          android:layout_margin="10dp"
+                          android:layout_gravity="right|bottom"/>
+            </FrameLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:orientation="horizontal"
+                          android:layout_margin="10dp"
+                          android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="50dp"
+                           android:layout_height="50dp"
+                           android:src="@drawable/user"
+                android:layout_marginRight="20dp"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="dog video"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="video name"
+                              android:textSize="15dp"
+                              android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="10dp">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="250dp"
+                           android:src="@drawable/dog"
+                           android:scaleType="centerCrop"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:text="10:11"
+                          android:textColor="#ffffff"
+                          android:layout_margin="10dp"
+                          android:layout_gravity="right|bottom"/>
+            </FrameLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:orientation="horizontal"
+                          android:layout_margin="10dp"
+                          android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="50dp"
+                           android:layout_height="50dp"
+                           android:src="@drawable/user"
+                           android:layout_marginRight="20dp"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="dog video"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="video name"
+                              android:textSize="15dp"
+                              android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="10dp">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="250dp"
+                           android:src="@drawable/dog"
+                           android:scaleType="centerCrop"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:text="10:11"
+                          android:textColor="#ffffff"
+                          android:layout_margin="10dp"
+                          android:layout_gravity="right|bottom"/>
+            </FrameLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:orientation="horizontal"
+                          android:layout_margin="10dp"
+                          android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="50dp"
+                           android:layout_height="50dp"
+                           android:src="@drawable/user"
+                           android:layout_marginRight="20dp"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="dog video"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="video name"
+                              android:textSize="15dp"
+                              android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <FrameLayout android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_margin="10dp">
+
+                <ImageView android:layout_width="wrap_content"
+                           android:layout_height="250dp"
+                           android:src="@drawable/dog"
+                           android:scaleType="centerCrop"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:background="#000000"
+                          android:text="10:11"
+                          android:textColor="#ffffff"
+                          android:layout_margin="10dp"
+                          android:layout_gravity="right|bottom"/>
+            </FrameLayout>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="50dp"
+                          android:orientation="horizontal"
+                          android:layout_margin="10dp"
+                          android:gravity="center_vertical">
+
+
+                <ImageView android:layout_width="50dp"
+                           android:layout_height="50dp"
+                           android:src="@drawable/user"
+                           android:layout_marginRight="20dp"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="dog video"
+                              android:textSize="20dp"
+                              android:textColor="#ffffff"/>
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:text="video name"
+                              android:textSize="15dp"
+                              android:textColor="#ffffff"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+
+
+
+데이터 저장 방식
+- RDB (Relational Database)
+    - 관계형 데이터 베이스
+
+- Key, Value
+    - 쌍으로 저장하는 방식 (키, 값)
+
+- RDBMS (Relational Database Management System)
+    - RDB 를 관리하기 위한 툴
+    - MySQL, Oracle...
+    - SQL -> RDBMS 를 위한 언어
+
+- NoSQL
+    - SQL 말고 다르게 해보자
+
+안드로이드 데이터베이스
+- SQLiteDatabase
+- SharedPreference
+    - Key, Value 방식
+    - 목적: 공유된 사용자의 기호 방식
+    - 하드하게 데이터 베이스를 구축 할 수 없다.

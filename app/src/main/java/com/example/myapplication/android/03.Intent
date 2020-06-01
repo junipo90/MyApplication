@@ -1,0 +1,15 @@
+
+
+// Intent - 의도, 요구, 의사 전달
+// - Intent 사용
+//      - Activity 와 Activity
+//      - Android System 과 내 APP (ex.. 전화, 문자..)
+//      - 다름 App 과 내 App -> 무작정 사용 할 수 없다. 상호 합의가 있어야 한다.
+
+// - 요청의 종류
+//      - 전달만 하는 요청 -> startActivity
+//      - 리턴을 받는 요청 -> startActivityForResult
+
+// - intent 종류
+// - 명시적 인텐트 -> 명확한 대상에게 요청
+// - 암시적 인텐트  -> 행동을 요청하면 가능한 대상이 호출

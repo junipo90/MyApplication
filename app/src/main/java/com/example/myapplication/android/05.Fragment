@@ -1,0 +1,32 @@
+
+
+// Fragment
+
+- Activity -> 앱에 보이는 화면 단위
+
+- Activity 가 가지고 있는 문제
+    - ex)
+    - Activity 가 길어지게 되면 (파트 1, 2, 3, 4, 5...) -> 관리 포인트가 많아 진다 -> 관리하기 어려워 진다
+
+- 다양한 디바이스에서 오는 문제
+    - ex)
+    - 안드로이드 디바이스가 너무 다양하다
+    - 안드로이드는 핸드폰만 있는 것이 아니다.. -> 태블릿.. 등등
+
+// 사용처
+- Activity 를 파트로 나누어서 관리한다 -> Fragment
+
+Fragment
+- 라이프 사이클이 존대한다
+- Activity 에 종속적이다
+
+// 사용 방법
+- XML 에 ViewComponent 로 추가한다
+- 코드(동적)으로 추가한다
+
+// 데이터 전달 방법
+- Activity -> Fragment : argument 와 bundle
+- Fragment -> Activity : 자체 구현(리스너 구현)
+
+
+

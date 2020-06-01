@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:scrollbars="none">
+        <!--        fillViewport 는 항상 true 로 넣어 놓자-->
+        <!--        스크롤바 옵션 -->
+        <!--        ScrollView 는 자식 컨텐츠를 하나만 가질 수 있다-->
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+
+            <TextView android:layout_width="300dp"
+                      android:layout_height="300dp"
+                      android:background="#673AB7"/>
+            <TextView android:layout_width="200dp"
+                      android:layout_height="200dp"
+                      android:background="#FFC107"/>
+            <TextView android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:background="#00BCD4"/>
+            <TextView android:layout_width="300dp"
+                      android:layout_height="300dp"
+                      android:background="#673AB7"/>
+            <TextView android:layout_width="200dp"
+                      android:layout_height="200dp"
+                      android:background="#FFC107"/>
+            <TextView android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:background="#00BCD4"/>
+            <TextView android:layout_width="300dp"
+                      android:layout_height="300dp"
+                      android:background="#673AB7"/>
+            <TextView android:layout_width="200dp"
+                      android:layout_height="200dp"
+                      android:background="#FFC107"/>
+            <TextView android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:background="#00BCD4"/>
+            <TextView android:layout_width="300dp"
+                      android:layout_height="300dp"
+                      android:background="#673AB7"/>
+            <TextView android:layout_width="200dp"
+                      android:layout_height="200dp"
+                      android:background="#FFC107"/>
+            <TextView android:layout_width="100dp"
+                      android:layout_height="100dp"
+                      android:background="#00BCD4"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
