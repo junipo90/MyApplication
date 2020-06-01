@@ -13,4 +13,5 @@ class ContextActivity : AppCompatActivity() {
         val context: ContextActivity = this
         val applicationContext = getApplicationContext()
     }
+    ///////
 }
