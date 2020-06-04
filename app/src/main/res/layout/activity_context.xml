@@ -7,4 +7,34 @@
         android:layout_height="match_parent"
         tools:context=".ContextActivity">
 
+    <TextView
+            android:text="이름을 입력하세요"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/dog"
+            android:id="@+id/photoView"
+            app:layout_constraintTop_toBottomOf="@+id/nameText"
+            app:layout_constraintStart_toStartOf="@+id/nameText"
+            app:layout_constraintEnd_toEndOf="@+id/nameText"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.502"
+            android:contentDescription="TODO"
+            android:scaleType="centerCrop"/>
+    <Button
+            android:text="Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scaleTypeButton"
+            app:layout_constraintTop_toBottomOf="@+id/photoView"
+            app:layout_constraintEnd_toEndOf="@+id/photoView"
+            app:layout_constraintStart_toStartOf="@+id/photoView"
+            android:layout_marginTop="8dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
